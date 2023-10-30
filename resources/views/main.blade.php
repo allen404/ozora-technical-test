@@ -28,7 +28,7 @@
             <div class="col-md-6"></div>
             <div class="col-md-10 mt-3">
                 <input type="text" name="nama_barang" class="form-control" id="nama_barang"
-                       placeholder="Cari barang...">
+                       placeholder="Cari barang... (Kosongkan apabila ingin memunculkan semua data)">
             </div>
             <div class="col-md-2 mt-3">
                 <button onclick="searchBarang()" class="btn btn-primary" id="cari_barang">
