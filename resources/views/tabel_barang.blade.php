@@ -1,7 +1,7 @@
 <table id="table" name="table" class="table table-responsive table-striped table-bordered">
     <thead>
     <tr>
-        <th>ID</th>
+        <th>No</th>
         <th>Foto Barang</th>
         <th>Nama Barang</th>
         <th>Harga Beli</th>
@@ -11,9 +11,10 @@
     </tr>
     </thead>
     <tbody>
+    <?php $no = 1; ?>
     @foreach($barang as $b)
         <tr>
-            <td>{{$b->id}}</td>
+            <td>{{$no++}}</td>
             <td><img src="{{asset('upload/barang/'.$b->foto_barang)}}" alt=""
                      class="img-fluid mx-auto d-block" width="200px"></td>
             <td>{{$b->nama_barang}}</td>
